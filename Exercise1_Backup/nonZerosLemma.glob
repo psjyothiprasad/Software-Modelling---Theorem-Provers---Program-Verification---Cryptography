@@ -1,0 +1,98 @@
+DIGEST 9865d3d65f7244fb7bf65bfb9c29d5b6
+FnonZerosLemma
+ind 10:16 <> natlist
+constr 32:34 <> nil
+constr 50:53 <> cons
+R38:44 nonZerosLemma <> natlist ind
+R75:81 nonZerosLemma <> natlist ind
+R64:70 nonZerosLemma <> natlist ind
+R57:59 Coq.Init.Datatypes <> nat ind
+R108:111 nonZerosLemma <> cons constr
+not 95 <> ::x_'::'_x
+R172:174 nonZerosLemma <> nil constr
+not 163 <> ::'['_']'
+R207:210 nonZerosLemma <> cons constr
+R218:221 nonZerosLemma <> cons constr
+R225:227 nonZerosLemma <> nil constr
+not 186 <> ::'['_x_';'_'..'_';'_x_']'
+def 246:251 <> append
+R258:264 nonZerosLemma <> natlist ind
+R269:275 nonZerosLemma <> natlist ind
+R286:286 nonZerosLemma <> m var
+R294:295 nonZerosLemma <> ::'['_']' not
+R300:300 nonZerosLemma <> n var
+R304:307 nonZerosLemma <> ::x_'::'_x not
+R314:316 nonZerosLemma <> ::x_'::'_x not
+R327:327 nonZerosLemma <> ::x_'::'_x not
+R317:322 nonZerosLemma <> append def
+R326:326 nonZerosLemma <> n var
+R357:362 nonZerosLemma <> append def
+not 344 <> ::x_'++'_x
+def 414:417 <> snoc
+R421:427 nonZerosLemma <> natlist ind
+R432:434 Coq.Init.Datatypes <> nat ind
+R438:444 nonZerosLemma <> natlist ind
+R454:454 nonZerosLemma <> m var
+R462:463 nonZerosLemma <> ::'['_']' not
+R468:468 nonZerosLemma <> ::'['_x_';'_'..'_';'_x_']' not
+R470:470 nonZerosLemma <> ::'['_x_';'_'..'_';'_x_']' not
+R469:469 nonZerosLemma <> n var
+R474:475 nonZerosLemma <> ::x_'::'_x not
+R482:485 nonZerosLemma <> ::x_'::'_x not
+R494:494 nonZerosLemma <> ::x_'::'_x not
+R486:489 nonZerosLemma <> snoc def
+R493:493 nonZerosLemma <> n var
+def 511:517 <> reverse
+R521:527 nonZerosLemma <> natlist ind
+R532:538 nonZerosLemma <> natlist ind
+R549:549 nonZerosLemma <> n var
+R557:558 nonZerosLemma <> ::'['_']' not
+R563:564 nonZerosLemma <> ::'['_']' not
+R568:569 nonZerosLemma <> ::x_'::'_x not
+R575:578 nonZerosLemma <> snoc def
+R580:586 nonZerosLemma <> reverse def
+prf 607:620 <> associative_L3
+R639:645 nonZerosLemma <> natlist ind
+R657:659 Coq.Init.Logic <> :type_scope:x_'='_x not
+R649:651 nonZerosLemma <> ::x_'++'_x not
+R656:656 nonZerosLemma <> ::x_'++'_x not
+R648:648 nonZerosLemma <> n var
+R653:654 nonZerosLemma <> ::x_'++'_x not
+R652:652 nonZerosLemma <> o var
+R655:655 nonZerosLemma <> p var
+R660:660 nonZerosLemma <> ::x_'++'_x not
+R665:667 nonZerosLemma <> ::x_'++'_x not
+R662:663 nonZerosLemma <> ::x_'++'_x not
+R661:661 nonZerosLemma <> n var
+R664:664 nonZerosLemma <> o var
+R668:668 nonZerosLemma <> p var
+prf 775:784 <> appendList
+R803:809 nonZerosLemma <> natlist ind
+R817:819 Coq.Init.Datatypes <> nat ind
+R834:836 Coq.Init.Logic <> :type_scope:x_'='_x not
+R823:826 nonZerosLemma <> snoc def
+R833:833 nonZerosLemma <> n var
+R828:831 nonZerosLemma <> list var
+R841:844 nonZerosLemma <> ::x_'++'_x not
+R837:840 nonZerosLemma <> list var
+R845:845 nonZerosLemma <> ::'['_x_';'_'..'_';'_x_']' not
+R847:847 nonZerosLemma <> ::'['_x_';'_'..'_';'_x_']' not
+R846:846 nonZerosLemma <> n var
+prf 998:1012 <> appendEmptyList
+R1030:1036 nonZerosLemma <> natlist ind
+R1049:1051 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1043:1046 nonZerosLemma <> ::x_'++'_x not
+R1039:1042 nonZerosLemma <> list var
+R1047:1048 nonZerosLemma <> ::'['_']' not
+R1052:1055 nonZerosLemma <> list var
+def 1203:1210 <> nonZeros
+R1214:1220 nonZerosLemma <> natlist ind
+R1225:1231 nonZerosLemma <> natlist ind
+R1242:1242 nonZerosLemma <> n var
+R1251:1252 nonZerosLemma <> ::'['_']' not
+R1257:1258 nonZerosLemma <> ::'['_']' not
+R1263:1266 nonZerosLemma <> ::x_'::'_x not
+R1297:1304 nonZerosLemma <> nonZeros def
+R1307:1307 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R1324:1327 nonZerosLemma <> ::x_'::'_x not
+R1328:1335 nonZerosLemma <> nonZeros def

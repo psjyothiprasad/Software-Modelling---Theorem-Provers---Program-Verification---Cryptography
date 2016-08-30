@@ -1,0 +1,63 @@
+DIGEST 6e4ebb94ee94d57ef7b88f4eb772bd8b
+FNand
+ind 10:13 <> bool
+constr 23:26 <> true
+constr 36:40 <> false
+R30:33 Nand <> bool ind
+R44:47 Nand <> bool ind
+def 62:64 <> not
+R68:71 Nand <> bool ind
+R74:77 Nand <> bool ind
+R87:87 Nand <> x var
+R95:98 Nand <> true constr
+R103:107 Nand <> false constr
+R110:114 Nand <> false constr
+R119:122 Nand <> true constr
+def 141:143 <> and
+R151:154 Nand <> bool ind
+R157:160 Nand <> bool ind
+R170:170 Nand <> x var
+R178:181 Nand <> true constr
+R186:186 Nand <> y var
+R189:193 Nand <> false constr
+R198:202 Nand <> false constr
+def 221:224 <> nand
+R232:235 Nand <> bool ind
+R238:241 Nand <> bool ind
+R251:251 Nand <> x var
+R259:262 Nand <> true constr
+R267:269 Nand <> not def
+R271:271 Nand <> y var
+R274:278 Nand <> false constr
+R283:286 Nand <> true constr
+def 305:306 <> or
+R314:317 Nand <> bool ind
+R320:323 Nand <> bool ind
+R333:333 Nand <> x var
+R341:344 Nand <> true constr
+R349:352 Nand <> true constr
+R355:359 Nand <> false constr
+R364:364 Nand <> y var
+def 384:386 <> nor
+R394:397 Nand <> bool ind
+R400:403 Nand <> bool ind
+R413:413 Nand <> x var
+R421:424 Nand <> true constr
+R429:433 Nand <> false constr
+R436:440 Nand <> false constr
+R445:447 Nand <> not def
+R449:449 Nand <> y var
+prf 466:472 <> not_not
+R484:487 Nand <> bool ind
+R500:502 Coq.Init.Logic <> :type_scope:x_'='_x not
+R490:492 Nand <> not def
+R494:496 Nand <> not def
+R498:498 Nand <> x var
+R503:503 Nand <> x var
+def 587:589 <> ex1
+R593:593 Coq.Init.Logic <> :type_scope:x_'='_x not
+R608:611 Coq.Init.Logic <> :type_scope:x_'='_x not
+R594:596 Nand <> nor def
+R603:607 Nand <> false constr
+R598:601 Nand <> true constr
+R612:616 Nand <> false constr

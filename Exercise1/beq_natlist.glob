@@ -1,0 +1,92 @@
+DIGEST 319b0cb893c6bbfddc0a04217da7df80
+Fbeq_natlist
+R15:25 Coq.Arith.EqNat <> <> lib
+ind 40:46 <> natlist
+constr 60:62 <> nil
+constr 76:79 <> cons
+R66:72 beq_natlist <> natlist ind
+R101:107 beq_natlist <> natlist ind
+R90:96 beq_natlist <> natlist ind
+R83:85 Coq.Init.Datatypes <> nat ind
+R133:136 beq_natlist <> cons constr
+not 120 <> ::x_'::'_x
+R197:199 beq_natlist <> nil constr
+not 188 <> ::'['_']'
+R232:235 beq_natlist <> cons constr
+R243:246 beq_natlist <> cons constr
+R250:252 beq_natlist <> nil constr
+not 211 <> ::'['_x_';'_'..'_';'_x_']'
+def 272:274 <> new
+R279:282 Coq.Init.Datatypes <> bool ind
+R287:290 Coq.Init.Datatypes <> bool ind
+R293:296 Coq.Init.Datatypes <> bool ind
+R304:304 beq_natlist <> a var
+R318:322 Coq.Init.Datatypes <> false constr
+R311:311 beq_natlist <> b var
+def 335:345 <> beq_natlist
+R352:358 beq_natlist <> natlist ind
+R366:372 beq_natlist <> natlist ind
+R377:380 Coq.Init.Datatypes <> bool ind
+R393:393 beq_natlist <> m var
+R391:391 beq_natlist <> l var
+R401:402 beq_natlist <> ::'['_']' not
+R406:407 beq_natlist <> ::'['_']' not
+R412:415 Coq.Init.Datatypes <> true constr
+R423:424 beq_natlist <> ::'['_']' not
+R429:433 Coq.Init.Datatypes <> false constr
+R436:437 beq_natlist <> ::'['_']' not
+R446:450 Coq.Init.Datatypes <> false constr
+R454:457 beq_natlist <> ::x_'::'_x not
+R464:465 beq_natlist <> ::x_'::'_x not
+R473:475 beq_natlist <> new def
+R493:503 beq_natlist <> beq_natlist def
+R478:484 Coq.Arith.EqNat <> beq_nat def
+R523:525 beq_natlist <> new def
+R546:556 beq_natlist <> beq_natlist def
+R566:566 beq_natlist <> ::'['_x_';'_'..'_';'_x_']' not
+R568:568 beq_natlist <> ::'['_x_';'_'..'_';'_x_']' not
+R570:570 beq_natlist <> ::'['_x_';'_'..'_';'_x_']' not
+R572:572 beq_natlist <> ::'['_x_';'_'..'_';'_x_']' not
+R558:558 beq_natlist <> ::'['_x_';'_'..'_';'_x_']' not
+R560:560 beq_natlist <> ::'['_x_';'_'..'_';'_x_']' not
+R562:562 beq_natlist <> ::'['_x_';'_'..'_';'_x_']' not
+R564:564 beq_natlist <> ::'['_x_';'_'..'_';'_x_']' not
+R593:603 beq_natlist <> beq_natlist def
+R613:613 beq_natlist <> ::'['_x_';'_'..'_';'_x_']' not
+R615:615 beq_natlist <> ::'['_x_';'_'..'_';'_x_']' not
+R617:617 beq_natlist <> ::'['_x_';'_'..'_';'_x_']' not
+R619:619 beq_natlist <> ::'['_x_';'_'..'_';'_x_']' not
+R605:605 beq_natlist <> ::'['_x_';'_'..'_';'_x_']' not
+R607:607 beq_natlist <> ::'['_x_';'_'..'_';'_x_']' not
+R609:609 beq_natlist <> ::'['_x_';'_'..'_';'_x_']' not
+R611:611 beq_natlist <> ::'['_x_';'_'..'_';'_x_']' not
+def 632:648 <> test_beq_natlist1
+R670:672 Coq.Init.Logic <> :type_scope:x_'='_x not
+R653:663 beq_natlist <> beq_natlist def
+R668:669 beq_natlist <> ::'['_']' not
+R665:666 beq_natlist <> ::'['_']' not
+R673:676 Coq.Init.Datatypes <> true constr
+def 722:738 <> test_beq_natlist2
+R769:771 Coq.Init.Logic <> :type_scope:x_'='_x not
+R742:752 beq_natlist <> beq_natlist def
+R762:762 beq_natlist <> ::'['_x_';'_'..'_';'_x_']' not
+R764:764 beq_natlist <> ::'['_x_';'_'..'_';'_x_']' not
+R766:766 beq_natlist <> ::'['_x_';'_'..'_';'_x_']' not
+R768:768 beq_natlist <> ::'['_x_';'_'..'_';'_x_']' not
+R754:754 beq_natlist <> ::'['_x_';'_'..'_';'_x_']' not
+R756:756 beq_natlist <> ::'['_x_';'_'..'_';'_x_']' not
+R758:758 beq_natlist <> ::'['_x_';'_'..'_';'_x_']' not
+R760:760 beq_natlist <> ::'['_x_';'_'..'_';'_x_']' not
+R772:775 Coq.Init.Datatypes <> true constr
+def 819:835 <> test_beq_natlist3
+R866:868 Coq.Init.Logic <> :type_scope:x_'='_x not
+R839:849 beq_natlist <> beq_natlist def
+R859:859 beq_natlist <> ::'['_x_';'_'..'_';'_x_']' not
+R861:861 beq_natlist <> ::'['_x_';'_'..'_';'_x_']' not
+R863:863 beq_natlist <> ::'['_x_';'_'..'_';'_x_']' not
+R865:865 beq_natlist <> ::'['_x_';'_'..'_';'_x_']' not
+R851:851 beq_natlist <> ::'['_x_';'_'..'_';'_x_']' not
+R853:853 beq_natlist <> ::'['_x_';'_'..'_';'_x_']' not
+R855:855 beq_natlist <> ::'['_x_';'_'..'_';'_x_']' not
+R857:857 beq_natlist <> ::'['_x_';'_'..'_';'_x_']' not
+R869:873 Coq.Init.Datatypes <> false constr

@@ -1,0 +1,46 @@
+DIGEST 07ee629b820349b7d0bca1cb3dd224dc
+FappendEmptyList
+ind 10:16 <> natlist
+constr 32:34 <> nil
+constr 50:53 <> cons
+R38:44 appendEmptyList <> natlist ind
+R75:81 appendEmptyList <> natlist ind
+R64:70 appendEmptyList <> natlist ind
+R57:59 Coq.Init.Datatypes <> nat ind
+R108:111 appendEmptyList <> cons constr
+not 95 <> ::x_'::'_x
+R172:174 appendEmptyList <> nil constr
+not 163 <> ::'['_']'
+R207:210 appendEmptyList <> cons constr
+R218:221 appendEmptyList <> cons constr
+R225:227 appendEmptyList <> nil constr
+not 186 <> ::'['_x_';'_'..'_';'_x_']'
+def 245:250 <> append
+R257:263 appendEmptyList <> natlist ind
+R268:274 appendEmptyList <> natlist ind
+R285:285 appendEmptyList <> m var
+R293:294 appendEmptyList <> ::'['_']' not
+R299:299 appendEmptyList <> n var
+R303:306 appendEmptyList <> ::x_'::'_x not
+R313:315 appendEmptyList <> ::x_'::'_x not
+R326:326 appendEmptyList <> ::x_'::'_x not
+R316:321 appendEmptyList <> append def
+R325:325 appendEmptyList <> n var
+R356:361 appendEmptyList <> append def
+not 343 <> ::x_'++'_x
+prf 412:426 <> appendEmptyList
+R444:450 appendEmptyList <> natlist ind
+R463:465 Coq.Init.Logic <> :type_scope:x_'='_x not
+R457:460 appendEmptyList <> ::x_'++'_x not
+R453:456 appendEmptyList <> list var
+R461:462 appendEmptyList <> ::'['_']' not
+R466:469 appendEmptyList <> list var
+R621:622 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R646:648 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R651:651 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R623:637 appendEmptyList <> appendEmptyList thm
+R639:639 appendEmptyList <> ::'['_x_';'_'..'_';'_x_']' not
+R641:641 appendEmptyList <> ::'['_x_';'_'..'_';'_x_']' not
+R643:643 appendEmptyList <> ::'['_x_';'_'..'_';'_x_']' not
+R645:645 appendEmptyList <> ::'['_x_';'_'..'_';'_x_']' not
+R649:650 appendEmptyList <> ::'['_']' not

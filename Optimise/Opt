@@ -1,0 +1,14 @@
+Inductive AE : Type :=
+|num : nat -> AE
+|plus : AE -> AE -> AE
+|minus : AE -> AE -> AE
+|times : AE -> AE -> AE.
+
+Fixedpoint opt(e:AE):AE :=
+match e with
+|num n => num n
+|plus (num 0) r => (opt r)
+|plus l r => plus (opt l) (opt r)
+|minus p q => minus (opt p) (opt r)
+|times m n => times (opt m) (opt n)
+end. 

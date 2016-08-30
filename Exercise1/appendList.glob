@@ -1,0 +1,49 @@
+DIGEST 0939a815c0d64a0202b64a9ce02bfcb3
+FappendList
+ind 10:16 <> natlist
+constr 32:34 <> nil
+constr 50:53 <> cons
+R38:44 appendList <> natlist ind
+R75:81 appendList <> natlist ind
+R64:70 appendList <> natlist ind
+R57:59 Coq.Init.Datatypes <> nat ind
+R108:111 appendList <> cons constr
+not 95 <> ::x_'::'_x
+R172:174 appendList <> nil constr
+not 163 <> ::'['_']'
+R207:210 appendList <> cons constr
+R218:221 appendList <> cons constr
+R225:227 appendList <> nil constr
+not 186 <> ::'['_x_';'_'..'_';'_x_']'
+def 245:250 <> append
+R257:263 appendList <> natlist ind
+R268:274 appendList <> natlist ind
+R285:285 appendList <> m var
+R293:294 appendList <> ::'['_']' not
+R299:299 appendList <> n var
+R303:306 appendList <> ::x_'::'_x not
+R313:315 appendList <> ::x_'::'_x not
+R326:326 appendList <> ::x_'::'_x not
+R316:321 appendList <> append def
+R325:325 appendList <> n var
+def 343:346 <> snoc
+R350:356 appendList <> natlist ind
+R361:363 Coq.Init.Datatypes <> nat ind
+R367:373 appendList <> natlist ind
+R383:383 appendList <> m var
+R391:392 appendList <> ::'['_']' not
+R397:397 appendList <> ::'['_x_';'_'..'_';'_x_']' not
+R399:399 appendList <> ::'['_x_';'_'..'_';'_x_']' not
+R398:398 appendList <> n var
+R403:404 appendList <> ::x_'::'_x not
+R411:414 appendList <> ::x_'::'_x not
+R423:423 appendList <> ::x_'::'_x not
+R415:418 appendList <> snoc def
+R422:422 appendList <> n var
+prf 513:522 <> appendList
+R541:547 appendList <> natlist ind
+R555:557 Coq.Init.Datatypes <> nat ind
+R572:574 Coq.Init.Logic <> :type_scope:x_'='_x not
+R561:564 appendList <> snoc def
+R571:571 appendList <> n var
+R566:569 appendList <> list var

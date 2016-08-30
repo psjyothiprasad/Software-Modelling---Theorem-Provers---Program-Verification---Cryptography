@@ -1,0 +1,109 @@
+DIGEST fa0d8a921b6821a8d844ee9845379253
+FreverseDistributive
+ind 10:16 <> natlist
+constr 32:34 <> nil
+constr 50:53 <> cons
+R38:44 reverseDistributive <> natlist ind
+R75:81 reverseDistributive <> natlist ind
+R64:70 reverseDistributive <> natlist ind
+R57:59 Coq.Init.Datatypes <> nat ind
+R108:111 reverseDistributive <> cons constr
+not 95 <> ::x_'::'_x
+R172:174 reverseDistributive <> nil constr
+not 163 <> ::'['_']'
+R207:210 reverseDistributive <> cons constr
+R218:221 reverseDistributive <> cons constr
+R225:227 reverseDistributive <> nil constr
+not 186 <> ::'['_x_';'_'..'_';'_x_']'
+def 246:251 <> append
+R258:264 reverseDistributive <> natlist ind
+R269:275 reverseDistributive <> natlist ind
+R286:286 reverseDistributive <> m var
+R294:295 reverseDistributive <> ::'['_']' not
+R300:300 reverseDistributive <> n var
+R304:307 reverseDistributive <> ::x_'::'_x not
+R314:316 reverseDistributive <> ::x_'::'_x not
+R327:327 reverseDistributive <> ::x_'::'_x not
+R317:322 reverseDistributive <> append def
+R326:326 reverseDistributive <> n var
+R357:362 reverseDistributive <> append def
+not 344 <> ::x_'++'_x
+def 414:417 <> snoc
+R421:427 reverseDistributive <> natlist ind
+R432:434 Coq.Init.Datatypes <> nat ind
+R438:444 reverseDistributive <> natlist ind
+R454:454 reverseDistributive <> m var
+R462:463 reverseDistributive <> ::'['_']' not
+R468:468 reverseDistributive <> ::'['_x_';'_'..'_';'_x_']' not
+R470:470 reverseDistributive <> ::'['_x_';'_'..'_';'_x_']' not
+R469:469 reverseDistributive <> n var
+R474:475 reverseDistributive <> ::x_'::'_x not
+R482:485 reverseDistributive <> ::x_'::'_x not
+R494:494 reverseDistributive <> ::x_'::'_x not
+R486:489 reverseDistributive <> snoc def
+R493:493 reverseDistributive <> n var
+def 511:517 <> reverse
+R521:527 reverseDistributive <> natlist ind
+R532:538 reverseDistributive <> natlist ind
+R549:549 reverseDistributive <> n var
+R557:558 reverseDistributive <> ::'['_']' not
+R563:564 reverseDistributive <> ::'['_']' not
+R568:569 reverseDistributive <> ::x_'::'_x not
+R575:578 reverseDistributive <> snoc def
+R580:586 reverseDistributive <> reverse def
+prf 607:620 <> associative_L3
+R639:645 reverseDistributive <> natlist ind
+R657:659 Coq.Init.Logic <> :type_scope:x_'='_x not
+R649:651 reverseDistributive <> ::x_'++'_x not
+R656:656 reverseDistributive <> ::x_'++'_x not
+R648:648 reverseDistributive <> n var
+R653:654 reverseDistributive <> ::x_'++'_x not
+R652:652 reverseDistributive <> o var
+R655:655 reverseDistributive <> p var
+R660:660 reverseDistributive <> ::x_'++'_x not
+R665:667 reverseDistributive <> ::x_'++'_x not
+R662:663 reverseDistributive <> ::x_'++'_x not
+R661:661 reverseDistributive <> n var
+R664:664 reverseDistributive <> o var
+R668:668 reverseDistributive <> p var
+prf 775:784 <> appendList
+R803:809 reverseDistributive <> natlist ind
+R817:819 Coq.Init.Datatypes <> nat ind
+R834:836 Coq.Init.Logic <> :type_scope:x_'='_x not
+R823:826 reverseDistributive <> snoc def
+R833:833 reverseDistributive <> n var
+R828:831 reverseDistributive <> list var
+R841:844 reverseDistributive <> ::x_'++'_x not
+R837:840 reverseDistributive <> list var
+R845:845 reverseDistributive <> ::'['_x_';'_'..'_';'_x_']' not
+R847:847 reverseDistributive <> ::'['_x_';'_'..'_';'_x_']' not
+R846:846 reverseDistributive <> n var
+prf 998:1012 <> appendEmptyList
+R1030:1036 reverseDistributive <> natlist ind
+R1049:1051 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1043:1046 reverseDistributive <> ::x_'++'_x not
+R1039:1042 reverseDistributive <> list var
+R1047:1048 reverseDistributive <> ::'['_']' not
+R1052:1055 reverseDistributive <> list var
+prf 1203:1211 <> distr_rev
+R1230:1236 reverseDistributive <> natlist ind
+R1258:1260 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1239:1245 reverseDistributive <> reverse def
+R1250:1253 reverseDistributive <> ::x_'++'_x not
+R1248:1249 reverseDistributive <> l1 var
+R1254:1255 reverseDistributive <> l2 var
+R1261:1261 reverseDistributive <> ::x_'++'_x not
+R1272:1278 reverseDistributive <> ::x_'++'_x not
+R1289:1290 reverseDistributive <> ::x_'++'_x not
+R1262:1268 reverseDistributive <> reverse def
+R1270:1271 reverseDistributive <> l2 var
+R1279:1285 reverseDistributive <> reverse def
+R1287:1288 reverseDistributive <> l1 var
+R1343:1357 reverseDistributive <> appendEmptyList thm
+R1343:1357 reverseDistributive <> appendEmptyList thm
+R1416:1425 reverseDistributive <> appendList thm
+R1416:1425 reverseDistributive <> appendList thm
+R1443:1452 reverseDistributive <> appendList thm
+R1443:1452 reverseDistributive <> appendList thm
+R1470:1483 reverseDistributive <> associative_L3 thm
+R1470:1483 reverseDistributive <> associative_L3 thm

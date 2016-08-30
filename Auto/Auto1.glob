@@ -1,0 +1,31 @@
+DIGEST 93870b6136e13ac3a4c85852b2241fa9
+FAuto1
+ind 10:13 <> even
+constr 33:37 <> EvenO
+constr 49:54 <> EvenSS
+R17:19 Coq.Init.Datatypes <> nat ind
+R41:44 Auto1 <> even ind
+R69:71 Coq.Init.Datatypes <> nat ind
+R84:87 Auto1 <> even ind
+R89:89 Coq.Init.Datatypes <> S constr
+R91:91 Coq.Init.Datatypes <> S constr
+R93:93 Auto1 <> n var
+R74:77 Auto1 <> even ind
+R79:79 Auto1 <> n var
+prf 108:113 <> even_0
+R117:120 Auto1 <> even ind
+R138:142 Auto1 <> EvenO constr
+R138:142 Auto1 <> EvenO constr
+prf 159:164 <> even_4
+R168:171 Auto1 <> even ind
+R189:194 Auto1 <> EvenSS constr
+R189:194 Auto1 <> EvenSS constr
+R203:208 Auto1 <> EvenSS constr
+R203:208 Auto1 <> EvenSS constr
+R217:221 Auto1 <> EvenO constr
+R217:221 Auto1 <> EvenO constr
+prf 238:245 <> even_4_1
+R249:252 Auto1 <> even ind
+R375:378 Auto1 <> even ind
+prf 390:397 <> even_4_2
+R401:404 Auto1 <> even ind

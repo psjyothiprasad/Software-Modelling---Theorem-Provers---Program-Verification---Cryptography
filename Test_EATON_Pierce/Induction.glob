@@ -1,0 +1,56 @@
+DIGEST 3461d77de7b8d0932473cba0d4c46386
+FInduction
+def 164:168 <> minus
+R177:179 Coq.Init.Datatypes <> nat ind
+R194:194 Induction <> n var
+R191:191 Induction <> m var
+R205:205 Coq.Init.Datatypes <> O constr
+R219:219 Coq.Init.Datatypes <> O constr
+R225:225 Coq.Init.Datatypes <> S constr
+R231:231 Coq.Init.Datatypes <> O constr
+R239:239 Induction <> n var
+R245:245 Coq.Init.Datatypes <> S constr
+R251:251 Coq.Init.Datatypes <> S constr
+R259:263 Induction <> minus def
+prf 288:297 <> minus_diag
+R322:324 Coq.Init.Logic <> :type_scope:x_'='_x not
+R313:317 Induction <> minus def
+R321:321 Induction <> n var
+R319:319 Induction <> n var
+prf 423:434 <> mult_0_plus'
+R451:453 Coq.Init.Datatypes <> nat ind
+R469:471 Coq.Init.Logic <> :type_scope:x_'='_x not
+R458:458 Coq.Init.Peano <> :nat_scope:x_'*'_x not
+R464:467 Coq.Init.Peano <> :nat_scope:x_'*'_x not
+R460:462 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R463:463 Induction <> n var
+R468:468 Induction <> m var
+R473:475 Coq.Init.Peano <> :nat_scope:x_'*'_x not
+R472:472 Induction <> n var
+R476:476 Induction <> m var
+prf 561:574 <> mult_0_plus'_1
+R591:593 Coq.Init.Datatypes <> nat ind
+R609:611 Coq.Init.Logic <> :type_scope:x_'='_x not
+R598:598 Coq.Init.Peano <> :nat_scope:x_'*'_x not
+R604:607 Coq.Init.Peano <> :nat_scope:x_'*'_x not
+R600:602 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R603:603 Induction <> n var
+R608:608 Induction <> m var
+R613:615 Coq.Init.Peano <> :nat_scope:x_'*'_x not
+R612:612 Induction <> n var
+R616:616 Induction <> m var
+prf 672:685 <> mult_0_plus'_2
+R702:704 Coq.Init.Datatypes <> nat ind
+R720:722 Coq.Init.Logic <> :type_scope:x_'='_x not
+R709:709 Coq.Init.Peano <> :nat_scope:x_'*'_x not
+R715:718 Coq.Init.Peano <> :nat_scope:x_'*'_x not
+R711:713 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R714:714 Induction <> n var
+R719:719 Induction <> m var
+R724:726 Coq.Init.Peano <> :nat_scope:x_'*'_x not
+R723:723 Induction <> n var
+R727:727 Induction <> m var
+R759:759 Coq.Init.Logic <> :type_scope:x_'='_x not
+R757:757 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R759:759 Coq.Init.Logic <> :type_scope:x_'='_x not
+R757:757 Coq.Init.Peano <> :nat_scope:x_'+'_x not

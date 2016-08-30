@@ -1,0 +1,44 @@
+DIGEST 543b633d62268c7e5140dc25e7b83655
+Fnand3
+ind 10:13 <> bool
+constr 23:26 <> true
+constr 36:40 <> false
+R30:33 nand3 <> bool ind
+R44:47 nand3 <> bool ind
+def 62:64 <> not
+R68:71 nand3 <> bool ind
+R74:77 nand3 <> bool ind
+R87:87 nand3 <> x var
+R95:98 nand3 <> true constr
+R103:107 nand3 <> false constr
+R110:114 nand3 <> false constr
+R119:122 nand3 <> true constr
+def 141:143 <> and
+R151:154 nand3 <> bool ind
+R157:160 nand3 <> bool ind
+R170:170 nand3 <> y var
+R178:181 nand3 <> true constr
+R186:186 nand3 <> z var
+R189:193 nand3 <> false constr
+R198:202 nand3 <> false constr
+def 221:225 <> nand3
+R235:238 nand3 <> bool ind
+R241:244 nand3 <> bool ind
+R254:254 nand3 <> x var
+R262:265 nand3 <> true constr
+R271:273 nand3 <> and def
+R277:277 nand3 <> z var
+R275:275 nand3 <> y var
+R281:285 nand3 <> false constr
+R290:293 nand3 <> true constr
+prf 310:316 <> not_not
+R328:331 nand3 <> bool ind
+R344:346 Coq.Init.Logic <> :type_scope:x_'='_x not
+R334:336 nand3 <> not def
+R338:340 nand3 <> not def
+R342:342 nand3 <> x var
+R347:347 nand3 <> x var
+R441:445 nand3 <> nand3 def
+R457:460 nand3 <> true constr
+R452:455 nand3 <> true constr
+R447:450 nand3 <> true constr

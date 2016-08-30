@@ -1,0 +1,23 @@
+DIGEST a813c05be6478f7a138f5e43a12193d9
+FEx1
+ind 10:11 <> SC
+constr 25:29 <> Value
+constr 45:51 <> Unknown
+R40:41 Ex1 <> SC ind
+R33:35 Coq.Init.Datatypes <> nat ind
+R55:56 Ex1 <> SC ind
+ind 70:77 <> NatStack
+constr 91:95 <> Empty
+constr 110:113 <> Push
+R99:106 Ex1 <> NatStack ind
+R136:143 Ex1 <> NatStack ind
+R124:131 Ex1 <> NatStack ind
+R117:119 Coq.Init.Datatypes <> nat ind
+def 158:160 <> pop
+R164:171 Ex1 <> NatStack ind
+R176:183 Ex1 <> NatStack ind
+R194:194 Ex1 <> s var
+R203:207 Ex1 <> Empty constr
+R212:216 Ex1 <> Empty constr
+R220:223 Ex1 <> Push constr
+R232:232 Ex1 <> s var

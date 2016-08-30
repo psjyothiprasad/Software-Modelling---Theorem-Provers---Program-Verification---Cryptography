@@ -1,0 +1,8 @@
+DIGEST b96deecda2873e05343ce00b6c1aa772
+FequalList
+R15:25 Coq.Arith.EqNat <> <> lib
+R44:54 Coq.Arith.EqNat <> <> lib
+def 69:85 <> test_beq_natlist1
+R101:103 Coq.Init.Logic <> :type_scope:x_'='_x not
+R90:96 Coq.Arith.EqNat <> beq_nat def
+R104:107 Coq.Init.Datatypes <> true constr

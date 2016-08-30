@@ -1,0 +1,79 @@
+DIGEST 4fd7b165ab8efd42d7927e5b6f376654
+Fbeq_natlist_refl
+R15:25 Coq.Arith.EqNat <> <> lib
+ind 40:46 <> natlist
+constr 60:62 <> nil
+constr 76:79 <> cons
+R66:72 beq_natlist_refl <> natlist ind
+R101:107 beq_natlist_refl <> natlist ind
+R90:96 beq_natlist_refl <> natlist ind
+R83:85 Coq.Init.Datatypes <> nat ind
+R133:136 beq_natlist_refl <> cons constr
+not 120 <> ::x_'::'_x
+R197:199 beq_natlist_refl <> nil constr
+not 188 <> ::'['_']'
+R232:235 beq_natlist_refl <> cons constr
+R243:246 beq_natlist_refl <> cons constr
+R250:252 beq_natlist_refl <> nil constr
+not 211 <> ::'['_x_';'_'..'_';'_x_']'
+def 272:278 <> new_bob
+R283:286 Coq.Init.Datatypes <> bool ind
+R291:294 Coq.Init.Datatypes <> bool ind
+R297:300 Coq.Init.Datatypes <> bool ind
+R308:308 beq_natlist_refl <> a var
+R322:326 Coq.Init.Datatypes <> false constr
+R315:315 beq_natlist_refl <> b var
+def 339:349 <> beq_natlist
+R356:362 beq_natlist_refl <> natlist ind
+R370:376 beq_natlist_refl <> natlist ind
+R381:384 Coq.Init.Datatypes <> bool ind
+R397:397 beq_natlist_refl <> m var
+R395:395 beq_natlist_refl <> l var
+R405:406 beq_natlist_refl <> ::'['_']' not
+R410:411 beq_natlist_refl <> ::'['_']' not
+R416:419 Coq.Init.Datatypes <> true constr
+R427:428 beq_natlist_refl <> ::'['_']' not
+R433:437 Coq.Init.Datatypes <> false constr
+R440:441 beq_natlist_refl <> ::'['_']' not
+R450:454 Coq.Init.Datatypes <> false constr
+R458:461 beq_natlist_refl <> ::x_'::'_x not
+R468:469 beq_natlist_refl <> ::x_'::'_x not
+R477:483 beq_natlist_refl <> new_bob def
+R501:511 beq_natlist_refl <> beq_natlist def
+R486:492 Coq.Arith.EqNat <> beq_nat def
+R531:537 beq_natlist_refl <> new_bob def
+R558:568 beq_natlist_refl <> beq_natlist def
+R578:578 beq_natlist_refl <> ::'['_x_';'_'..'_';'_x_']' not
+R580:580 beq_natlist_refl <> ::'['_x_';'_'..'_';'_x_']' not
+R582:582 beq_natlist_refl <> ::'['_x_';'_'..'_';'_x_']' not
+R584:584 beq_natlist_refl <> ::'['_x_';'_'..'_';'_x_']' not
+R570:570 beq_natlist_refl <> ::'['_x_';'_'..'_';'_x_']' not
+R572:572 beq_natlist_refl <> ::'['_x_';'_'..'_';'_x_']' not
+R574:574 beq_natlist_refl <> ::'['_x_';'_'..'_';'_x_']' not
+R576:576 beq_natlist_refl <> ::'['_x_';'_'..'_';'_x_']' not
+R605:615 beq_natlist_refl <> beq_natlist def
+R625:625 beq_natlist_refl <> ::'['_x_';'_'..'_';'_x_']' not
+R627:627 beq_natlist_refl <> ::'['_x_';'_'..'_';'_x_']' not
+R629:629 beq_natlist_refl <> ::'['_x_';'_'..'_';'_x_']' not
+R631:631 beq_natlist_refl <> ::'['_x_';'_'..'_';'_x_']' not
+R617:617 beq_natlist_refl <> ::'['_x_';'_'..'_';'_x_']' not
+R619:619 beq_natlist_refl <> ::'['_x_';'_'..'_';'_x_']' not
+R621:621 beq_natlist_refl <> ::'['_x_';'_'..'_';'_x_']' not
+R623:623 beq_natlist_refl <> ::'['_x_';'_'..'_';'_x_']' not
+R648:654 Coq.Arith.EqNat <> beq_nat def
+prf 666:677 <> beq_nat_refl
+R691:693 Coq.Init.Datatypes <> nat ind
+R700:702 Coq.Init.Logic <> :type_scope:x_'='_x not
+R696:699 Coq.Init.Datatypes <> true constr
+R703:709 Coq.Arith.EqNat <> beq_nat def
+R713:713 beq_natlist_refl <> n var
+R711:711 beq_natlist_refl <> n var
+prf 820:835 <> beq_natlist_refl
+R848:854 beq_natlist_refl <> natlist ind
+R861:863 Coq.Init.Logic <> :type_scope:x_'='_x not
+R857:860 Coq.Init.Datatypes <> true constr
+R864:874 beq_natlist_refl <> beq_natlist def
+R878:878 beq_natlist_refl <> l var
+R876:876 beq_natlist_refl <> l var
+R970:981 beq_natlist_refl <> beq_nat_refl thm
+R970:981 beq_natlist_refl <> beq_nat_refl thm

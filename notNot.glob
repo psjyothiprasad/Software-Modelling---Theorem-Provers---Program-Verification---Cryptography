@@ -1,0 +1,35 @@
+DIGEST 79317a36d3e96d87168f5cc1e485e286
+FnotNot
+ind 10:13 <> bool
+constr 23:26 <> true
+constr 36:40 <> false
+R30:33 notNot <> bool ind
+R44:47 notNot <> bool ind
+def 62:64 <> not
+R68:71 notNot <> bool ind
+R74:77 notNot <> bool ind
+R87:87 notNot <> x var
+R95:98 notNot <> true constr
+R103:107 notNot <> false constr
+R110:114 notNot <> false constr
+R119:122 notNot <> true constr
+def 141:143 <> and
+R151:154 notNot <> bool ind
+R157:160 notNot <> bool ind
+R170:170 notNot <> x var
+R178:181 notNot <> true constr
+R186:186 notNot <> y var
+R189:193 notNot <> false constr
+R198:202 notNot <> false constr
+prf 218:224 <> not_not
+R236:239 notNot <> bool ind
+R252:254 Coq.Init.Logic <> :type_scope:x_'='_x not
+R242:244 notNot <> not def
+R246:248 notNot <> not def
+R250:250 notNot <> x var
+R255:255 notNot <> x var
+R348:354 notNot <> not_not thm
+R356:360 notNot <> false constr
+R382:384 notNot <> and def
+R391:395 notNot <> false constr
+R386:389 notNot <> true constr

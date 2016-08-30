@@ -1,0 +1,72 @@
+DIGEST d62d9c2e8e979487ec25e282f154f740
+Fnornor
+ind 10:13 <> bool
+constr 23:26 <> true
+constr 36:40 <> false
+R30:33 nornor <> bool ind
+R44:47 nornor <> bool ind
+def 62:64 <> not
+R68:71 nornor <> bool ind
+R74:77 nornor <> bool ind
+R87:87 nornor <> x var
+R95:98 nornor <> true constr
+R103:107 nornor <> false constr
+R110:114 nornor <> false constr
+R119:122 nornor <> true constr
+def 141:143 <> and
+R151:154 nornor <> bool ind
+R157:160 nornor <> bool ind
+R170:170 nornor <> x var
+R178:181 nornor <> true constr
+R186:186 nornor <> y var
+R189:193 nornor <> false constr
+R198:202 nornor <> false constr
+def 221:224 <> nand
+R232:235 nornor <> bool ind
+R238:241 nornor <> bool ind
+R251:251 nornor <> x var
+R259:262 nornor <> true constr
+R267:269 nornor <> not def
+R271:271 nornor <> y var
+R274:278 nornor <> false constr
+R283:286 nornor <> true constr
+def 305:306 <> or
+R314:317 nornor <> bool ind
+R320:323 nornor <> bool ind
+R333:333 nornor <> x var
+R341:344 nornor <> true constr
+R349:352 nornor <> true constr
+R355:359 nornor <> false constr
+R364:364 nornor <> y var
+def 384:386 <> nor
+R394:397 nornor <> bool ind
+R400:403 nornor <> bool ind
+R413:413 nornor <> x var
+R421:424 nornor <> true constr
+R429:433 nornor <> false constr
+R436:440 nornor <> false constr
+R445:447 nornor <> not def
+R449:449 nornor <> y var
+prf 466:472 <> not_not
+R484:487 nornor <> bool ind
+R500:502 Coq.Init.Logic <> :type_scope:x_'='_x not
+R490:492 nornor <> not def
+R494:496 nornor <> not def
+R498:498 nornor <> x var
+R503:503 nornor <> x var
+def 587:589 <> ex1
+R593:593 Coq.Init.Logic <> :type_scope:x_'='_x not
+R608:611 Coq.Init.Logic <> :type_scope:x_'='_x not
+R594:596 nornor <> nor def
+R603:607 nornor <> false constr
+R598:601 nornor <> true constr
+R612:616 nornor <> false constr
+prf 669:675 <> nor_nor
+R679:679 Coq.Init.Logic <> :type_scope:x_'='_x not
+R706:709 Coq.Init.Logic <> :type_scope:x_'='_x not
+R680:682 nornor <> nor def
+R701:705 nornor <> false constr
+R685:687 nornor <> nor def
+R694:698 nornor <> false constr
+R689:692 nornor <> true constr
+R710:713 nornor <> true constr

@@ -1,0 +1,81 @@
+DIGEST 23944900fab181ed828d7ef40d303e02
+FreverseInvolutive1
+ind 10:16 <> natlist
+constr 32:34 <> nil
+constr 50:53 <> cons
+R38:44 reverseInvolutive1 <> natlist ind
+R75:81 reverseInvolutive1 <> natlist ind
+R64:70 reverseInvolutive1 <> natlist ind
+R57:59 Coq.Init.Datatypes <> nat ind
+R108:111 reverseInvolutive1 <> cons constr
+not 95 <> ::x_'::'_x
+R172:174 reverseInvolutive1 <> nil constr
+not 163 <> ::'['_']'
+R207:210 reverseInvolutive1 <> cons constr
+R218:221 reverseInvolutive1 <> cons constr
+R225:227 reverseInvolutive1 <> nil constr
+not 186 <> ::'['_x_';'_'..'_';'_x_']'
+def 245:250 <> append
+R257:263 reverseInvolutive1 <> natlist ind
+R268:274 reverseInvolutive1 <> natlist ind
+R285:285 reverseInvolutive1 <> m var
+R293:294 reverseInvolutive1 <> ::'['_']' not
+R299:299 reverseInvolutive1 <> n var
+R303:306 reverseInvolutive1 <> ::x_'::'_x not
+R313:315 reverseInvolutive1 <> ::x_'::'_x not
+R326:326 reverseInvolutive1 <> ::x_'::'_x not
+R316:321 reverseInvolutive1 <> append def
+R325:325 reverseInvolutive1 <> n var
+R356:361 reverseInvolutive1 <> append def
+not 343 <> ::x_'++'_x
+def 413:416 <> snoc
+R420:426 reverseInvolutive1 <> natlist ind
+R431:433 Coq.Init.Datatypes <> nat ind
+R437:443 reverseInvolutive1 <> natlist ind
+R453:453 reverseInvolutive1 <> m var
+R461:462 reverseInvolutive1 <> ::'['_']' not
+R467:467 reverseInvolutive1 <> ::'['_x_';'_'..'_';'_x_']' not
+R469:469 reverseInvolutive1 <> ::'['_x_';'_'..'_';'_x_']' not
+R468:468 reverseInvolutive1 <> n var
+R473:474 reverseInvolutive1 <> ::x_'::'_x not
+R481:484 reverseInvolutive1 <> ::x_'::'_x not
+R493:493 reverseInvolutive1 <> ::x_'::'_x not
+R485:488 reverseInvolutive1 <> snoc def
+R492:492 reverseInvolutive1 <> n var
+def 510:516 <> reverse
+R520:526 reverseInvolutive1 <> natlist ind
+R531:537 reverseInvolutive1 <> natlist ind
+R548:548 reverseInvolutive1 <> n var
+R556:557 reverseInvolutive1 <> ::'['_']' not
+R562:563 reverseInvolutive1 <> ::'['_']' not
+R567:568 reverseInvolutive1 <> ::x_'::'_x not
+R574:577 reverseInvolutive1 <> snoc def
+R579:585 reverseInvolutive1 <> reverse def
+prf 606:620 <> appendEmptyList
+R638:644 reverseInvolutive1 <> natlist ind
+R657:659 Coq.Init.Logic <> :type_scope:x_'='_x not
+R651:654 reverseInvolutive1 <> ::x_'++'_x not
+R647:650 reverseInvolutive1 <> list var
+R655:656 reverseInvolutive1 <> ::'['_']' not
+R660:663 reverseInvolutive1 <> list var
+prf 815:822 <> rev_snoc
+R836:842 reverseInvolutive1 <> natlist ind
+R854:856 Coq.Init.Datatypes <> nat ind
+R876:878 Coq.Init.Logic <> :type_scope:x_'='_x not
+R859:865 reverseInvolutive1 <> reverse def
+R867:870 reverseInvolutive1 <> snoc def
+R874:874 reverseInvolutive1 <> n var
+R872:872 reverseInvolutive1 <> l var
+R880:883 reverseInvolutive1 <> ::x_'::'_x not
+R879:879 reverseInvolutive1 <> n var
+R884:890 reverseInvolutive1 <> reverse def
+R892:892 reverseInvolutive1 <> l var
+prf 1007:1023 <> reverseInvolutive
+R1041:1047 reverseInvolutive1 <> natlist ind
+R1071:1073 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1050:1056 reverseInvolutive1 <> reverse def
+R1058:1064 reverseInvolutive1 <> reverse def
+R1066:1069 reverseInvolutive1 <> list var
+R1074:1077 reverseInvolutive1 <> list var
+R1182:1189 reverseInvolutive1 <> rev_snoc thm
+R1182:1189 reverseInvolutive1 <> rev_snoc thm

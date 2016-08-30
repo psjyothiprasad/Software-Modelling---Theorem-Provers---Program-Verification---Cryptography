@@ -1,0 +1,109 @@
+DIGEST 1c11f7dae1e4892671358b002674a3b5
+Ftest1
+def 728:732 <> evenb
+R737:739 Coq.Init.Datatypes <> nat ind
+R744:747 Coq.Init.Datatypes <> bool ind
+R760:760 test1 <> n var
+R771:771 Coq.Init.Datatypes <> O constr
+R783:786 Coq.Init.Datatypes <> true constr
+R792:792 Coq.Init.Datatypes <> S constr
+R794:794 Coq.Init.Datatypes <> O constr
+R804:808 Coq.Init.Datatypes <> false constr
+R814:814 Coq.Init.Datatypes <> S constr
+R817:817 Coq.Init.Datatypes <> S constr
+R826:830 test1 <> evenb def
+R862:866 test1 <> evenb def
+R879:879 Coq.Init.Datatypes <> O constr
+R888:888 Coq.Init.Datatypes <> S constr
+R897:897 Coq.Init.Datatypes <> S constr
+R899:899 Coq.Init.Datatypes <> O constr
+R908:908 Coq.Init.Datatypes <> S constr
+R911:911 Coq.Init.Datatypes <> S constr
+R913:913 Coq.Init.Datatypes <> O constr
+R923:923 Coq.Init.Datatypes <> S constr
+R926:926 Coq.Init.Datatypes <> S constr
+R929:929 Coq.Init.Datatypes <> S constr
+R931:931 Coq.Init.Datatypes <> O constr
+def 946:949 <> oddb
+R954:956 Coq.Init.Datatypes <> nat ind
+R961:964 Coq.Init.Datatypes <> bool ind
+R977:977 test1 <> n var
+R988:988 Coq.Init.Datatypes <> O constr
+R1000:1004 Coq.Init.Datatypes <> false constr
+R1010:1010 Coq.Init.Datatypes <> S constr
+R1012:1012 Coq.Init.Datatypes <> O constr
+R1022:1025 Coq.Init.Datatypes <> true constr
+R1031:1031 Coq.Init.Datatypes <> S constr
+R1034:1034 Coq.Init.Datatypes <> S constr
+R1043:1046 test1 <> oddb def
+R1077:1080 test1 <> oddb def
+prf 1096:1103 <> plus_O_n
+R1118:1120 Coq.Init.Datatypes <> nat ind
+R1128:1130 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1124:1126 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R1127:1127 test1 <> n var
+R1131:1131 test1 <> n var
+prf 1178:1185 <> plus_1_l
+R1198:1200 Coq.Init.Datatypes <> nat ind
+R1208:1210 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1204:1206 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R1207:1207 test1 <> n var
+R1211:1211 Coq.Init.Datatypes <> S constr
+R1213:1213 test1 <> n var
+prf 1267:1281 <> plus_id_example
+R1296:1298 Coq.Init.Datatypes <> nat ind
+R1320:1322 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1316:1318 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R1315:1315 test1 <> n var
+R1319:1319 test1 <> n var
+R1324:1326 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R1323:1323 test1 <> m var
+R1327:1327 test1 <> m var
+R1304:1306 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1303:1303 test1 <> n var
+R1307:1307 test1 <> m var
+prf 1384:1399 <> plus_id_exercise
+R1418:1420 Coq.Init.Datatypes <> nat ind
+R1448:1450 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1444:1446 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R1443:1443 test1 <> n var
+R1447:1447 test1 <> m var
+R1452:1454 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R1451:1451 test1 <> m var
+R1455:1455 test1 <> o var
+R1435:1437 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1434:1434 test1 <> m var
+R1438:1438 test1 <> o var
+R1426:1428 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1425:1425 test1 <> n var
+R1429:1429 test1 <> m var
+R1530:1540 Coq.Arith.EqNat <> <> lib
+R1555:1561 Coq.Arith.EqNat <> beq_nat def
+prf 1575:1595 <> plus_1_neq_0_firsttry
+R1610:1612 Coq.Init.Datatypes <> nat ind
+R1634:1636 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1617:1623 Coq.Arith.EqNat <> beq_nat def
+R1627:1629 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R1626:1626 test1 <> n var
+R1637:1641 Coq.Init.Datatypes <> false constr
+prf 1728:1750 <> plus_1_neq_0_firsttry_1
+R1765:1767 Coq.Init.Datatypes <> nat ind
+R1789:1791 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1772:1778 Coq.Arith.EqNat <> beq_nat def
+R1782:1784 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R1781:1781 test1 <> n var
+R1792:1796 Coq.Init.Datatypes <> false constr
+prf 1889:1913 <> identity_fn_applied_twice
+R1940:1943 Coq.Init.Datatypes <> bool ind
+R1932:1935 Coq.Init.Datatypes <> bool ind
+R1996:1999 Coq.Init.Datatypes <> bool ind
+R2010:2012 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2003:2003 test1 <> f var
+R2006:2006 test1 <> f var
+R2008:2008 test1 <> b var
+R2013:2013 test1 <> b var
+R1963:1966 Coq.Init.Datatypes <> bool ind
+R1973:1975 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1970:1970 test1 <> f var
+R1972:1972 test1 <> x var
+R1976:1976 test1 <> x var

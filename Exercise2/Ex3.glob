@@ -1,0 +1,155 @@
+DIGEST d60a5842ba164b47b59810ffec85bdc2
+FEx3
+ind 10:11 <> SC
+constr 32:36 <> Value
+constr 52:58 <> Unknown
+R45:46 Ex3 <> SC ind
+R62:63 Ex3 <> SC ind
+ind 79:83 <> Stack
+constr 104:108 <> Empty
+constr 122:125 <> Push
+R112:116 Ex3 <> Stack ind
+R145:149 Ex3 <> Stack ind
+R134:138 Ex3 <> Stack ind
+def 239:247 <> not_empty
+R259:263 Ex3 <> Stack ind
+R265:265 Ex3 <> T var
+R277:280 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R276:276 Ex3 <> s var
+R281:285 Ex3 <> Empty constr
+R287:287 Ex3 <> T var
+def 302:308 <> isEmpty
+R321:325 Ex3 <> Stack ind
+R327:327 Ex3 <> T var
+R332:335 Coq.Init.Datatypes <> bool ind
+R346:346 Ex3 <> s var
+R356:360 Ex3 <> Empty constr
+R365:368 Coq.Init.Datatypes <> true constr
+R372:375 Ex3 <> Push constr
+R384:388 Coq.Init.Datatypes <> false constr
+def 407:409 <> pop
+R421:425 Ex3 <> Stack ind
+R427:427 Ex3 <> T var
+R447:451 Ex3 <> Stack ind
+R453:453 Ex3 <> T var
+R430:438 Ex3 <> not_empty def
+R442:442 Ex3 <> s var
+R440:440 Ex3 <> T var
+R465:465 Ex3 <> s var
+R475:479 Ex3 <> Empty constr
+R496:504 Ex3 <> not_empty def
+R508:508 Ex3 <> s var
+R506:506 Ex3 <> T var
+R514:518 Ex3 <> Empty constr
+R520:520 Ex3 <> T var
+R526:529 Ex3 <> Push constr
+R550:558 Ex3 <> not_empty def
+R562:562 Ex3 <> s var
+R560:560 Ex3 <> T var
+def 588:590 <> top
+R602:606 Ex3 <> Stack ind
+R608:608 Ex3 <> T var
+R630:631 Ex3 <> SC ind
+R633:633 Ex3 <> T var
+R613:621 Ex3 <> not_empty def
+R625:625 Ex3 <> s var
+R623:623 Ex3 <> T var
+R644:644 Ex3 <> s var
+R653:657 Ex3 <> Empty constr
+R674:682 Ex3 <> not_empty def
+R686:686 Ex3 <> s var
+R684:684 Ex3 <> T var
+R691:697 Ex3 <> Unknown constr
+R699:699 Ex3 <> T var
+R704:707 Ex3 <> Push constr
+R728:736 Ex3 <> not_empty def
+R740:740 Ex3 <> s var
+R738:738 Ex3 <> T var
+R745:749 Ex3 <> Value constr
+R751:751 Ex3 <> T var
+prf 822:840 <> push_post_condition
+R872:880 Ex3 <> not_empty def
+R884:885 Ex3 <> xs var
+R882:882 Ex3 <> t var
+R887:887 Coq.Init.Logic <> :type_scope:x_'='_x not
+R907:910 Coq.Init.Logic <> :type_scope:x_'='_x not
+R933:933 Coq.Init.Logic <> :type_scope:x_'='_x not
+R888:890 Ex3 <> top def
+R895:898 Ex3 <> Push constr
+R904:905 Ex3 <> xs var
+R902:902 Ex3 <> x var
+R900:900 Ex3 <> t var
+R892:892 Ex3 <> t var
+R924:928 Ex3 <> Value constr
+R932:932 Ex3 <> x var
+R930:930 Ex3 <> t var
+prf 1073:1086 <> push_invariant
+R1118:1126 Ex3 <> not_empty def
+R1130:1131 Ex3 <> xs var
+R1128:1128 Ex3 <> t var
+R1153:1154 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1169:1169 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1134:1136 Ex3 <> pop def
+R1141:1144 Ex3 <> Push constr
+R1150:1151 Ex3 <> xs var
+R1148:1148 Ex3 <> x var
+R1146:1146 Ex3 <> t var
+R1138:1138 Ex3 <> t var
+R1167:1168 Ex3 <> xs var
+prf 1400:1421 <> isEmpty_post_condition
+R1453:1454 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1434:1440 Ex3 <> isEmpty def
+R1445:1449 Ex3 <> Empty constr
+R1451:1451 Ex3 <> t var
+R1442:1442 Ex3 <> t var
+R1455:1458 Coq.Init.Datatypes <> true constr
+prf 1510:1525 <> not_empty_push_x
+R1546:1546 Ex3 <> T var
+R1550:1558 Ex3 <> not_empty def
+R1563:1566 Ex3 <> Push constr
+R1573:1577 Ex3 <> Empty constr
+R1579:1579 Ex3 <> T var
+R1570:1570 Ex3 <> x var
+R1568:1568 Ex3 <> T var
+R1560:1560 Ex3 <> T var
+R1606:1614 Ex3 <> not_empty def
+prf 1645:1649 <> three
+R1672:1672 Ex3 <> T var
+R1677:1681 Ex3 <> Stack ind
+R1683:1683 Ex3 <> T var
+R1692:1700 Ex3 <> not_empty def
+R1705:1708 Ex3 <> Push constr
+R1714:1714 Ex3 <> s var
+R1712:1712 Ex3 <> x var
+R1710:1710 Ex3 <> T var
+R1702:1702 Ex3 <> T var
+R1725:1733 Ex3 <> not_empty def
+R1738:1741 Ex3 <> Push constr
+R1748:1751 Ex3 <> Push constr
+R1757:1757 Ex3 <> s var
+R1755:1755 Ex3 <> x var
+R1753:1753 Ex3 <> T var
+R1745:1745 Ex3 <> y var
+R1743:1743 Ex3 <> T var
+R1735:1735 Ex3 <> T var
+R1831:1833 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1778:1780 Ex3 <> pop def
+R1786:1788 Ex3 <> pop def
+R1793:1796 Ex3 <> Push constr
+R1803:1806 Ex3 <> Push constr
+R1812:1812 Ex3 <> s var
+R1810:1810 Ex3 <> x var
+R1808:1808 Ex3 <> T var
+R1800:1800 Ex3 <> y var
+R1798:1798 Ex3 <> T var
+R1790:1790 Ex3 <> T var
+R1817:1822 Ex3 <> proof1 var
+R1782:1782 Ex3 <> T var
+R1826:1830 Ex3 <> proof var
+R1834:1838 Ex3 <> Empty constr
+R1840:1840 Ex3 <> T var
+R1766:1766 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1765:1765 Ex3 <> s var
+R1767:1771 Ex3 <> Empty constr
+R1773:1773 Ex3 <> T var
+R1865:1867 Ex3 <> pop def

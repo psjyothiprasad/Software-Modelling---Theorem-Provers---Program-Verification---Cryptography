@@ -1,0 +1,55 @@
+DIGEST 4168e6bae9e8e0d47c193451b45e5432
+FOpt
+ind 10:11 <> AE
+constr 24:26 <> num
+constr 41:44 <> plus
+constr 64:68 <> minus
+constr 88:92 <> times
+R37:38 Opt <> AE ind
+R30:32 Coq.Init.Datatypes <> nat ind
+R60:61 Opt <> AE ind
+R54:55 Opt <> AE ind
+R48:49 Opt <> AE ind
+R84:85 Opt <> AE ind
+R78:79 Opt <> AE ind
+R72:73 Opt <> AE ind
+R108:109 Opt <> AE ind
+R102:103 Opt <> AE ind
+R96:97 Opt <> AE ind
+def 122:124 <> opt
+R128:129 Opt <> AE ind
+R134:135 Opt <> AE ind
+R146:146 Opt <> e var
+R154:156 Opt <> num constr
+R163:165 Opt <> num constr
+R170:173 Opt <> plus constr
+R176:178 Opt <> num constr
+R189:191 Opt <> opt def
+R197:200 Opt <> plus constr
+R209:212 Opt <> plus constr
+R223:225 Opt <> opt def
+R215:217 Opt <> opt def
+R231:235 Opt <> minus constr
+R244:248 Opt <> minus constr
+R259:261 Opt <> opt def
+R251:253 Opt <> opt def
+R267:271 Opt <> times constr
+R280:284 Opt <> times constr
+R295:297 Opt <> opt def
+R287:289 Opt <> opt def
+R325:327 Opt <> opt def
+R329:332 Opt <> plus constr
+R341:343 Opt <> num constr
+R334:336 Opt <> num constr
+def 360:362 <> ex1
+R391:394 Coq.Init.Logic <> :type_scope:x_'='_x not
+R400:400 Coq.Init.Logic <> :type_scope:x_'='_x not
+R366:368 Opt <> opt def
+R370:373 Opt <> plus constr
+R384:386 Opt <> num constr
+R376:378 Opt <> num constr
+R395:397 Opt <> num constr
+R460:462 Opt <> opt def
+R464:467 Opt <> plus constr
+R476:478 Opt <> num constr
+R469:471 Opt <> num constr

@@ -1,0 +1,33 @@
+DIGEST bbb23f33e6aaeff2890636a54d4e06e6
+FappendEmptyList
+ind 10:16 <> natlist
+constr 32:34 <> nil
+constr 50:53 <> cons
+R38:44 appendEmptyList <> natlist ind
+R75:81 appendEmptyList <> natlist ind
+R64:70 appendEmptyList <> natlist ind
+R57:59 Coq.Init.Datatypes <> nat ind
+R108:111 appendEmptyList <> cons constr
+not 95 <> ::x_'::'_x
+R172:174 appendEmptyList <> nil constr
+not 163 <> ::'['_']'
+def 249:254 <> append
+R261:267 appendEmptyList <> natlist ind
+R272:278 appendEmptyList <> natlist ind
+R289:289 appendEmptyList <> m var
+R297:298 appendEmptyList <> ::'['_']' not
+R303:303 appendEmptyList <> n var
+R307:310 appendEmptyList <> ::x_'::'_x not
+R317:319 appendEmptyList <> ::x_'::'_x not
+R330:330 appendEmptyList <> ::x_'::'_x not
+R320:325 appendEmptyList <> append def
+R329:329 appendEmptyList <> n var
+R360:365 appendEmptyList <> append def
+not 347 <> ::x_'++'_x
+prf 416:430 <> appendEmptyList
+R448:454 appendEmptyList <> natlist ind
+R467:469 Coq.Init.Logic <> :type_scope:x_'='_x not
+R461:464 appendEmptyList <> ::x_'++'_x not
+R457:460 appendEmptyList <> list var
+R465:466 appendEmptyList <> ::'['_']' not
+R470:473 appendEmptyList <> list var

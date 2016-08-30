@@ -1,0 +1,68 @@
+DIGEST 1834a4accc2e2f4e82213df223bbe2f6
+FassociativeL4
+ind 10:16 <> natlist
+constr 32:34 <> nil
+constr 50:53 <> cons
+R38:44 associativeL4 <> natlist ind
+R75:81 associativeL4 <> natlist ind
+R64:70 associativeL4 <> natlist ind
+R57:59 Coq.Init.Datatypes <> nat ind
+R108:111 associativeL4 <> cons constr
+not 95 <> ::x_'::'_x
+R172:174 associativeL4 <> nil constr
+not 163 <> ::'['_']'
+R207:210 associativeL4 <> cons constr
+R218:221 associativeL4 <> cons constr
+R225:227 associativeL4 <> nil constr
+not 186 <> ::'['_x_';'_'..'_';'_x_']'
+def 331:336 <> append
+R343:349 associativeL4 <> natlist ind
+R354:360 associativeL4 <> natlist ind
+R371:371 associativeL4 <> m var
+R379:380 associativeL4 <> ::'['_']' not
+R385:385 associativeL4 <> n var
+R389:392 associativeL4 <> ::x_'::'_x not
+R399:401 associativeL4 <> ::x_'::'_x not
+R412:412 associativeL4 <> ::x_'::'_x not
+R402:407 associativeL4 <> append def
+R411:411 associativeL4 <> n var
+R442:447 associativeL4 <> append def
+not 429 <> ::x_'++'_x
+prf 498:511 <> associative_L3
+R530:536 associativeL4 <> natlist ind
+R548:550 Coq.Init.Logic <> :type_scope:x_'='_x not
+R540:542 associativeL4 <> ::x_'++'_x not
+R547:547 associativeL4 <> ::x_'++'_x not
+R539:539 associativeL4 <> n var
+R544:545 associativeL4 <> ::x_'++'_x not
+R543:543 associativeL4 <> o var
+R546:546 associativeL4 <> p var
+R551:551 associativeL4 <> ::x_'++'_x not
+R556:558 associativeL4 <> ::x_'++'_x not
+R553:554 associativeL4 <> ::x_'++'_x not
+R552:552 associativeL4 <> n var
+R555:555 associativeL4 <> o var
+R559:559 associativeL4 <> p var
+prf 666:679 <> associative_L4
+R700:706 associativeL4 <> natlist ind
+R723:725 Coq.Init.Logic <> :type_scope:x_'='_x not
+R710:712 associativeL4 <> ::x_'++'_x not
+R722:722 associativeL4 <> ::x_'++'_x not
+R709:709 associativeL4 <> m var
+R714:716 associativeL4 <> ::x_'++'_x not
+R721:721 associativeL4 <> ::x_'++'_x not
+R713:713 associativeL4 <> n var
+R718:719 associativeL4 <> ::x_'++'_x not
+R717:717 associativeL4 <> o var
+R720:720 associativeL4 <> p var
+R726:726 associativeL4 <> ::x_'++'_x not
+R736:738 associativeL4 <> ::x_'++'_x not
+R727:727 associativeL4 <> ::x_'++'_x not
+R732:734 associativeL4 <> ::x_'++'_x not
+R729:730 associativeL4 <> ::x_'++'_x not
+R728:728 associativeL4 <> m var
+R731:731 associativeL4 <> n var
+R735:735 associativeL4 <> o var
+R739:739 associativeL4 <> p var
+R814:827 associativeL4 <> associative_L3 thm
+R814:827 associativeL4 <> associative_L3 thm
